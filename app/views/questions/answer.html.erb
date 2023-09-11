@@ -1,6 +1,11 @@
-<div class= "m">
-  <%= @question %>
-  <p>- You</p>
-  <%= @answer %>
-  <p>- Coach</p>
+<div class= "m-4">
+  <h1>Stupid Coaching</h1>
+    <div class= "p-4 m-4 ms-2  border-start border-5">
+        <%= @question %>
+        <p>-You</p>
+    </div>
+    <div class= "p-4 m-4 ms-2  alert alert-warning border-start">
+      <%= @answer %>
+      <p>-Coach</p>
+    </div>
 </div>
